@@ -116,7 +116,7 @@ class CssWebpackConfig extends AutomaticComponent {
 
                         return Config.processCssUrls;
                     },
-                    modules: useCssModules
+                    modules: false
                 }
             },
             {
